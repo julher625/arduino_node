@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+  
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>Laboratorio 9</h1>
+  <p>Conexion con arduino</p> 
+</div>
+  
+    <canvas id="myChart"></canvas>
+    <div class="row row-cols-1 row-cols-md-3">
+
+      <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+        <div class="card-header">Media</div>
+        <div class="card-body">
+          <h5 class="card-title">Valor</h5>
+          <p class="card-text" id="mean"></p>
+        </div>
+      </div>
+
+      <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+        <div class="card-header">Desviacion estandar</div>
+        <div class="card-body">
+          <h5 class="card-title">Valor</h5>
+          <p class="card-text" id="desviacion"></p>
+        </div>
+      </div>
+
+      <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+        <div class="card-header">Varianza</div>
+        <div class="card-body">
+          <h5 class="card-title">Valor</h5>
+          <p class="card-text" id="var"></p>
+        </div>
+      </div>
+
+      <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+        <div class="card-header">Desviacion Media</div>
+        <div class="card-body">
+          <h5 class="card-title">Valor</h5>
+          <p class="card-text" id="desviacionm"></p>
+        </div>
+      </div>
+
+    </div>
+
+
+</body>
+<script src="/public/js/plot.js"></script>
+</html>
